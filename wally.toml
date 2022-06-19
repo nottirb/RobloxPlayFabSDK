@@ -1,0 +1,14 @@
+[package]
+name = "nottirb/robloxplayfabsdk"
+description = "A PlayFab SDK for Roblox. PlayFab is a complete backend platform for live games with managed game services, real-time analytics, and LiveOps."
+license = "MIT"
+authors = ["grilme99 (Brooke)"]
+version = "0.0.4-beta"
+
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+exclude = ["**"]
+include = ["LICENSE", "wally.toml", "default.project.json", "src", "src/*.lua"]
+
+[dependencies]
